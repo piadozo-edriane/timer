@@ -1,0 +1,38 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    margin-top: 5%;
+}
+
+.border-container {
+    border: solid 0px;
+    height: 300px;
+    width: 800px;
+    position: absolute;
+    top: 20%;
+    left: 25%;
+    transform: (translate(-50, 50));
+    background-color: grey;
+    border-radius: 5px;
+}
+
+.glass-border {
+    border: solid 1px black;
+    top: 15%;
+    position: relative;
+    height: 200px;
+    width: 710px;
+    left: 5%;
+    background-color: black;
+}
+
+.alarm-label {
+    text-align: center;
+    font-family: 'DS-Digital', sans-serif;
+    font-size: 100px;
+    color: rgb(10, 241, 10);
+    margin-top: 40px;
+}
