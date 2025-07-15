@@ -11,7 +11,7 @@
     <div class="container">
         <div class="border-container">
             <div class="glass-border">
-                <div class="alarm-label">
+                <div class="alarm-label" id="count_label">
                     00:00:00
                 </div>
             </div>
@@ -19,7 +19,11 @@
     </div>
 
     <div class="buttons-container">
-        
+            <button type="button" id="start_button" onclick="startTime()"></button>
+            <button type="button" id="pause_button" onclick=" pauseTime()"></button>
+            <button type="button" id="resume_button" onclick="resumeTime()"></button>
+            <button type="button" id="stop_button" onclick="stopTime()"></button>
     </div>
+    <script src="script.js"></script>
 </body>
 </html>

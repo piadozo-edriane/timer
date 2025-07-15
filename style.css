@@ -36,3 +36,44 @@
     color: rgb(10, 241, 10);
     margin-top: 40px;
 }
+
+.buttons-container {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    top: 20%;
+    left: 41%;
+    gap: 50px;
+}
+
+#start_button {
+    border: solid 0px;
+    padding: 22px;
+    top: 10%;
+    background: green;
+    cursor: pointer;
+}
+
+#pause_button {
+    border: solid 0px;
+    padding: 22px;
+    top: 10%;
+    background: blue;
+    cursor: pointer;
+}
+
+#resume_button {
+    border: solid 0px;
+    padding: 22px;
+    top: 10%;
+    background: rgb(2, 46, 2);
+    cursor: pointer;
+}
+
+#stop_button {
+    border: solid 0px;
+    padding: 22px;
+    top: 10%;
+    background: rgb(151, 14, 14);
+    cursor: pointer;
+}
