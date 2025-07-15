@@ -23,7 +23,7 @@ function startTime () {
             updateDisplay();
             console.log (counter);
 
-            if (counter === 10) {
+            if (counter === 3600 || counter === 7200) {
                 alarmSound.play()
             }
 
